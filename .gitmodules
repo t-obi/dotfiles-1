@@ -1,0 +1,6 @@
+[submodule "zsh/better-npm-completion"]
+	path = zsh/better-npm-completion
+	url = git@github.com:lukechilds/zsh-better-npm-completion.git
+[submodule "nvm-git"]
+	path = nvm-git
+	url = git@github.com:lukechilds/zsh-nvm.git

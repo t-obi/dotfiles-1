@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
+brew 'fpp'
 brew 'ack'
 brew 'coreutils'
 brew 'grc'
@@ -20,6 +21,7 @@ brew 'unrar'
 brew 'wget'
 brew 'yarn'
 brew 'youtube-dl'
+brew 'reattach-to-user-namespace'
 
 cask '1password'
 cask 'atom'
