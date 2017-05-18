@@ -63,3 +63,6 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Don’t show Dashboard as a Space
 defaults write com.apple.dock dashboard-in-overlay -bool true
+
+# Don't automatically mark lines (caret on the left) in Terminal.app
+defaults write com.apple.Terminal AutoMarkPromptLines -int 0
