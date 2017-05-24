@@ -10,4 +10,4 @@ then
 fi
 
 alias ..="cd .."
-
+alias mkcd='_(){ mkdir $1; cd $1; }; _'
