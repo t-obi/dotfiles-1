@@ -1,6 +1,3 @@
 [submodule "nvm-git"]
 	path = nvm-git
 	url = git@github.com:lukechilds/zsh-nvm.git
-[submodule "tmux.symlink/plugins/tpm"]
-	path = tmux.symlink/plugins/tpm
-	url = https://github.com/tmux-plugins/tpm
