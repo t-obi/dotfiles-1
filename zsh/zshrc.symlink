@@ -50,3 +50,12 @@ zle -N up-line-or-beginning-search
 zle -N down-line-or-beginning-search
 bindkey "^[[A" up-line-or-beginning-search # Up
 bindkey "^[[B" down-line-or-beginning-search # Down
+# added by travis gem
+[ -f /Users/tkloht/.travis/travis.sh ] && source /Users/tkloht/.travis/travis.sh
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/tkloht/.nvm/versions/node/v8.0.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/tkloht/.nvm/versions/node/v8.0.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/tkloht/.nvm/versions/node/v8.0.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/tkloht/.nvm/versions/node/v8.0.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
