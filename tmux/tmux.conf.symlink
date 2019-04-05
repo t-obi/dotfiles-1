@@ -33,6 +33,9 @@ setw -g window-status-fg colour248
 setw -g window-status-current-fg colour248
 setw -g window-status-current-format ' #I#[fg=colour250]:#[fg=colour248]#W#[fg=colour50]#F'
 
+# stay in copy-mode after yank
+set -g @yank_action 'copy-pipe'
+
 ###################
 #       TPM       #
 ###################
@@ -44,7 +47,7 @@ set -g @plugin 'tmux-plugins/tmux-sessionist'
 set -g @plugin 'tmux-plugins/tmux-yank'
 set -g @plugin 'tmux-plugins/tmux-cpu'
 set -g @plugin 'tmux-plugins/tmux-pain-control'
-# set -g @plugin 'nhdaly/tmux-scroll-copy-mode'
+set -g @plugin 'nhdaly/tmux-better-mouse-mode'
 set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
 
 # install tpm if it is not available
