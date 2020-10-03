@@ -23,6 +23,8 @@ brew 'wget'
 brew 'yarn'
 brew 'youtube-dl'
 brew 'reattach-to-user-namespace'
+brew 'fd'
+brew 'fzf'
 
 cask '1password'
 cask 'atom'

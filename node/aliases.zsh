@@ -1,2 +1,2 @@
-alias cra="create-react-app"
+alias cra="npx create-react-app"
 alias rn="react-native"

@@ -1,0 +1,2 @@
+alias cfl="contentful"
+
